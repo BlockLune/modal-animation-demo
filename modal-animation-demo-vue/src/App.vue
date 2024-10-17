@@ -1,5 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Modal from "./components/Modal.vue";
+</script>
 
 <template>
-  <h1 class="text-3xl font-bold underline" v-motion-fade>Hello world!</h1>
+  <div class="w-screen h-screen flex items-center justify-center">
+    <Modal />
+  </div>
 </template>
